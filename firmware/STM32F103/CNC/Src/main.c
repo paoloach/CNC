@@ -49,7 +49,7 @@ SPI_HandleTypeDef hspi1;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
+uint8_t  buffer[4];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -63,6 +63,7 @@ static void MX_SPI1_Init(void);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
+uint8_t newCmd=0;
 
 /* USER CODE END 0 */
 
@@ -102,8 +103,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  HAL_SPI_Receive_IT(&hspi1,buffer,3);
   while (1)
   {
+      if (newCmd){
+          newCmd = 0;
+          HAL_SPI_Receive_IT(&hspi1,buffer,3);
+      }
   /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
@@ -112,6 +118,11 @@ int main(void)
   /* USER CODE END 3 */
 
 }
+
+void HAL_SPI_RxCpltCallback(SPI_HandleTypeDef *hspi) {
+    newCmd = 1;
+}
+
 
 /**
   * @brief System Clock Configuration
