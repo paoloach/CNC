@@ -22,13 +22,13 @@ SPI::SPI() {
     PIN_FUNC_SELECT(PERIPHS_IO_MUX_MTMS_U, 2); //GPIO14 is HSPI CLK pin (Clock)
 }
 
-void SPI::moveX(uint16_t x) {
+void SPI::moveCode(Code code, int16_t delta) {
     SpiData spiData;
     spiData.cmdLen=8;
-    spiData.cmd=0x55;
+    spiData.cmd=static_cast<uint8_t>(code);
     spiData.addrLen=0;
     spiData.addr =0;
     spiData.dataLen=2;
-    spiData.data = (uint32_t*)&x;
+    spiData.data = (uint32_t*)&delta;
     SPIMasterSendData(SpiNum_HSPI, &spiData);
 }

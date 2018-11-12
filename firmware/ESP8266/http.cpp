@@ -195,7 +195,7 @@ const char *HTTP::parseMethod(const char *data) {
     return data;
 }
 
-int HTTP::getIntAsBody(bool *error) {
+uint16_t HTTP::getIntAsBody(bool *error) {
     const char *iter = body;
     const char *end = body + bodyLen;
     for (; iter < end; iter++) {

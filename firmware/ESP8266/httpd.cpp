@@ -29,7 +29,10 @@ extern class SPI spi;
 
 static void getWhoAreYou(int fd, HTTP &http);
 
-static void upX(int fd, HTTP &http);
+static void moveX(int fd, HTTP &http);
+static void moveY(int fd, HTTP &http);
+static void moveZ(int fd, HTTP &http);
+static uint16_t move(int fd, HTTP &http);
 
 static bool readRequest(int fd, HTTP &http);
 
@@ -62,13 +65,9 @@ void httpTask(void *) {
     matchersGet.emplace_back("/", whoAreYouFunc);
     matchersGet.emplace_back("/whoareyou", getWhoAreYou);
 
-//    matchersGet.emplace_back("/temperature", getTemperature);
-//    matchersGet.emplace_back("/threshold", getThreshold);
-//
-//    matchersPut.emplace_back("/threshold", setTemperature);
-//    matchersPut.emplace_back("/enable", setEnable);
-//    matchersPut.emplace_back("/restart", setRestart);
-    matchersPut.emplace_back("/up/x", upX);
+    matchersPut.emplace_back("/move/x", moveX);
+    matchersPut.emplace_back("/move/y", moveY);
+    matchersPut.emplace_back("/move/z", moveZ);
 
     xEventGroupWaitBits(wifi_event_group, CONNECTED_BIT,
                         false, true, portMAX_DELAY);
@@ -175,22 +174,47 @@ static void dispatch(int fd, HTTP &http) {
 
 void getWhoAreYou(int fd, HTTP &http) {
     ESP_LOGI(TAG, "Respond at whoareyou");
-    HttpResponse::sendOk(fd, "I am ESP-OVEN");
+    HttpResponse::sendOk(fd, "I am a CNC");
     shutdown(fd,SHUT_RDWR);
 }
 
-void upX(int fd, HTTP &http) {
-    ESP_LOGI(TAG, "upX");
+void moveX(int fd, HTTP &http) {
+    ESP_LOGI(TAG, "moveX");
+    auto displacement = move(fd, http);
+    if (displacement != 0){
+        spi.moveX(displacement);
+    }
+}
+
+void moveY(int fd, HTTP &http) {
+    ESP_LOGI(TAG, "moveY");
+    auto displacement = move(fd, http);
+    if (displacement != 0){
+        spi.moveY(displacement);
+    }
+}
+
+void moveZ(int fd, HTTP &http) {
+    ESP_LOGI(TAG, "moveZ");
+    auto displacement = move(fd, http);
+    if (displacement != 0){
+        spi.moveZ(displacement);
+    }
+}
+
+
+static uint16_t move(int fd, HTTP &http) {
     bool error;
     auto displacement = http.getIntAsBody(&error);
 
     if (error) {
         HttpResponse::sendBadRequest(fd);
+        displacement = 0;
     } else {
         HttpResponse::sendOk(fd, nullptr);
-        spi.moveX(displacement);
     }
     shutdown(fd,SHUT_RDWR);
+    return displacement;
 }
 
 
