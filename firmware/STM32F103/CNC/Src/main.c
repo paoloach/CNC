@@ -41,7 +41,7 @@
 #include "stm32f1xx_hal.h"
 
 /* USER CODE BEGIN Includes */
-
+#include "movement.h"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -59,11 +59,17 @@ static void MX_SPI1_Init(void);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
-
+enum Code {
+    MOVE_X=0x15,
+    MOVE_Y=0x25,
+    MOVE_Z=0x35
+};
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
 uint8_t newCmd=0;
+enum Code Cmd;
+int16_t displacement=0;
 
 /* USER CODE END 0 */
 
@@ -104,13 +110,25 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   HAL_SPI_Receive_IT(&hspi1,buffer,3);
+  zero();
   while (1)
   {
       if (newCmd){
           newCmd = 0;
+          switch(Cmd){
+              case MOVE_X:
+                  moveX(displacement);
+                  break;
+              case MOVE_Y:
+                  moveY(displacement);
+                  break;
+              case MOVE_Z:
+                  moveZ(displacement);
+                  break;
+          }
           HAL_SPI_Receive_IT(&hspi1,buffer,3);
       }
-  /* USER CODE END WHILE */
+      /* USER CODE END WHILE */
 
   /* USER CODE BEGIN 3 */
 
@@ -120,7 +138,10 @@ int main(void)
 }
 
 void HAL_SPI_RxCpltCallback(SPI_HandleTypeDef *hspi) {
+    Cmd = buffer[0];
+    displacement = *(int16_t *)(buffer+1);
     newCmd = 1;
+
 }
 
 
