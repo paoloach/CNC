@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcjson.a  CMakeFiles/cjson.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON_Utils.c.o CMakeFiles/cjson.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/cjson/cJSON/test.c.o CMakeFiles/cjson.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON.c.o
+/usr/bin/ranlib libcjson.a

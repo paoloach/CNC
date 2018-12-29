@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/util/include/crc.h
+stdint.h
+-
+
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/util/src/crc.c
+stdint.h
+-
+crc.h
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/util/src/crc.h
+

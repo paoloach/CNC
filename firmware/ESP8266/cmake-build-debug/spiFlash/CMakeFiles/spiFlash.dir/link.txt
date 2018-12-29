@@ -1,0 +1,2 @@
+/usr/bin/ar qc libspiFlash.a  CMakeFiles/spiFlash.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/spi_flash/src/partition.c.o CMakeFiles/spiFlash.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/spi_flash/src/spi_flash.c.o
+/usr/bin/ranlib libspiFlash.a

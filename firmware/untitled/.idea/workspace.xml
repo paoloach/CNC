@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18c3d40b-7aed-4da1-a5fb-5e8ec6c10653" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ESP8266/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESP8266/SPI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ESP8266/SPI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESP8266/SPI.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ESP8266/SPI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESP8266/http.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ESP8266/http.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESP8266/http.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ESP8266/http.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESP8266/httpd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ESP8266/httpd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ESP8266/include/sdkconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ESP8266/include/sdkconfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32F103/CNC/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32F103/CNC/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32F103/CNC/CMakeLists_template.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32F103/CNC/CMakeLists_template.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32F103/CNC/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32F103/CNC/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../STM32F103/CNC/Src/movement.c" beforeDir="false" afterPath="$PROJECT_DIR$/../STM32F103/CNC/Src/movement.c" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="ROS.plugin.achdjian.it" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22293676" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24035922" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48705757" weight="0.3381535" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46962494" weight="0.3147942" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48283148" weight="0.3147942" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3114572" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.46434233" visible="true" weight="0.28253615" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.53037506" side_tool="true" weight="0.26028922" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.07341491" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32703003" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.2836485" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run Dashboard" order="13" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Cargo" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973205" />
+      <window_info anchor="right" x="786" y="495" width="347" height="66" id="Data View" order="3" show_stripe_button="false" type="FLOATING" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

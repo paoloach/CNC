@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtcpipAdapter.a  CMakeFiles/tcpipAdapter.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/tcpip_adapter/tcpip_adapter_lwip.c.o
+/usr/bin/ranlib libtcpipAdapter.a

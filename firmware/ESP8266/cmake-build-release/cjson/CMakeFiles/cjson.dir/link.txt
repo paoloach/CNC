@@ -1,0 +1,2 @@
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-ar qc libcjson.a  CMakeFiles/cjson.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON_Utils.c.obj CMakeFiles/cjson.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/cjson/cJSON/test.c.obj CMakeFiles/cjson.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/cjson/cJSON/cJSON.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-ranlib libcjson.a

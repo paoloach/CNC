@@ -49,7 +49,7 @@ SPI_HandleTypeDef hspi1;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-uint8_t  buffer[4];
+uint8_t  buffer[5];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -109,7 +109,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-  HAL_SPI_Receive_IT(&hspi1,buffer,3);
+  HAL_SPI_Receive_IT(&hspi1,buffer,4);
   zero();
   while (1)
   {
@@ -126,7 +126,7 @@ int main(void)
                   moveZ(displacement);
                   break;
           }
-          HAL_SPI_Receive_IT(&hspi1,buffer,3);
+          HAL_SPI_Receive_IT(&hspi1,buffer,4);
       }
       /* USER CODE END WHILE */
 
@@ -139,7 +139,9 @@ int main(void)
 
 void HAL_SPI_RxCpltCallback(SPI_HandleTypeDef *hspi) {
     Cmd = buffer[0];
-    displacement = *(int16_t *)(buffer+1);
+    displacement = buffer[3];
+    displacement <<= 8;
+    displacement += buffer[2];
     newCmd = 1;
 
 }

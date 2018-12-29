@@ -1,0 +1,479 @@
+The target system is: Generic - 1 - 
+The host system is: Linux - 4.19.0-aufs - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib
+Build flags: ;
+Id flags:  
+
+The output was:
+0
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400094
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/3.12.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib
+Build flags: ;
+Id flags:  
+
+The output was:
+0
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/3.12.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e12d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e12d.dir/build.make CMakeFiles/cmTC_3e12d.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_3e12d.dir/testCCompiler.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib    -o CMakeFiles/cmTC_3e12d.dir/testCCompiler.c.obj   -c /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3e12d
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e12d.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib       CMakeFiles/cmTC_3e12d.dir/testCCompiler.c.obj  -o cmTC_3e12d 
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcf63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcf63.dir/build.make CMakeFiles/cmTC_fcf63.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_fcf63.dir/CMakeCCompilerABI.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib    -o CMakeFiles/cmTC_fcf63.dir/CMakeCCompilerABI.c.obj   -c /opt/clion-183.3795.17/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_fcf63
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcf63.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib      -v CMakeFiles/cmTC_fcf63.dir/CMakeCCompilerABI.c.obj  -o cmTC_fcf63 
+Using built-in specs.
+COLLECT_GCC=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc
+COLLECT_LTO_WRAPPER=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/lto-wrapper
+Target: xtensa-lx106-elf
+Configured with: /home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.5/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-lx106-elf --prefix=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf --with-local-prefix=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --with-sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-60-g37b07f6f' --disable-__cxa_atexit --enable-cxx-flags='-fno-exceptions -fno-rtti' --with-gmp=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpfr=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpc=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-isl=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-cloog=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-libelf=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --disable-multilib --enable-languages=c,c++
+Thread model: single
+gcc version 4.8.5 (crosstool-NG crosstool-ng-1.22.0-60-g37b07f6f) 
+COMPILER_PATH=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/
+LIBRARY_PATH=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-nostdlib' '-v' '-o' 'cmTC_fcf63'
+ /home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/collect2 --sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot -o cmTC_fcf63 -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5 -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib CMakeFiles/cmTC_fcf63.dir/CMakeCCompilerABI.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-lx106-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fcf63/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fcf63.dir/build.make CMakeFiles/cmTC_fcf63.dir/build]
+  ignore line: [make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"]
+  ignore line: [Building C object CMakeFiles/cmTC_fcf63.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib    -o CMakeFiles/cmTC_fcf63.dir/CMakeCCompilerABI.c.obj   -c /opt/clion-183.3795.17/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_fcf63]
+  ignore line: [/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcf63.dir/link.txt --verbose=1]
+  ignore line: [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib      -v CMakeFiles/cmTC_fcf63.dir/CMakeCCompilerABI.c.obj  -o cmTC_fcf63 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/lto-wrapper]
+  ignore line: [Target: xtensa-lx106-elf]
+  ignore line: [Configured with: /home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.5/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-lx106-elf --prefix=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf --with-local-prefix=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --with-sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-60-g37b07f6f' --disable-__cxa_atexit --enable-cxx-flags='-fno-exceptions -fno-rtti' --with-gmp=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpfr=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpc=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-isl=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-cloog=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-libelf=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --disable-multilib --enable-languages=c,c++]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.8.5 (crosstool-NG crosstool-ng-1.22.0-60-g37b07f6f) ]
+  ignore line: [COMPILER_PATH=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-nostdlib' '-v' '-o' 'cmTC_fcf63']
+  link line: [ /home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/collect2 --sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot -o cmTC_fcf63 -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5 -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib CMakeFiles/cmTC_fcf63.dir/CMakeCCompilerABI.c.obj]
+    arg [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/collect2] ==> ignore
+    arg [--sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fcf63] ==> ignore
+    arg [-L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5] ==> dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5]
+    arg [-L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib] ==> dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib]
+    arg [-L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib] ==> dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib]
+    arg [-L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib] ==> dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_fcf63.dir/CMakeCCompilerABI.c.obj] ==> ignore
+  collapse library dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5] ==> [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5]
+  collapse library dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib] ==> [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/lib]
+  collapse library dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib] ==> [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib]
+  collapse library dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib] ==> [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib]
+  implicit libs: []
+  implicit dirs: [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5;/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/lib;/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib;/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e80c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e80c.dir/build.make CMakeFiles/cmTC_0e80c.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_0e80c.dir/feature_tests.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib   -std=c11 -o CMakeFiles/cmTC_0e80c.dir/feature_tests.c.obj   -c /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0e80c
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e80c.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib       CMakeFiles/cmTC_0e80c.dir/feature_tests.c.obj  -o cmTC_0e80c 
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a2b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a2b3.dir/build.make CMakeFiles/cmTC_1a2b3.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_1a2b3.dir/feature_tests.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib   -std=c99 -o CMakeFiles/cmTC_1a2b3.dir/feature_tests.c.obj   -c /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1a2b3
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a2b3.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib       CMakeFiles/cmTC_1a2b3.dir/feature_tests.c.obj  -o cmTC_1a2b3 
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2d716/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d716.dir/build.make CMakeFiles/cmTC_2d716.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building C object CMakeFiles/cmTC_2d716.dir/feature_tests.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib   -std=c90 -o CMakeFiles/cmTC_2d716.dir/feature_tests.c.obj   -c /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2d716
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d716.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc -nostdlib       CMakeFiles/cmTC_2d716.dir/feature_tests.c.obj  -o cmTC_2d716 
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5eed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5eed.dir/build.make CMakeFiles/cmTC_a5eed.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_a5eed.dir/testCXXCompiler.cxx.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib     -o CMakeFiles/cmTC_a5eed.dir/testCXXCompiler.cxx.obj -c /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a5eed
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5eed.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib        CMakeFiles/cmTC_a5eed.dir/testCXXCompiler.cxx.obj  -o cmTC_a5eed 
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400054
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_efa63/fast"
+/usr/bin/make -f CMakeFiles/cmTC_efa63.dir/build.make CMakeFiles/cmTC_efa63.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_efa63.dir/CMakeCXXCompilerABI.cpp.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib     -o CMakeFiles/cmTC_efa63.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/clion-183.3795.17/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_efa63
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efa63.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib       -v CMakeFiles/cmTC_efa63.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_efa63 
+Using built-in specs.
+COLLECT_GCC=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++
+COLLECT_LTO_WRAPPER=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/lto-wrapper
+Target: xtensa-lx106-elf
+Configured with: /home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.5/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-lx106-elf --prefix=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf --with-local-prefix=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --with-sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-60-g37b07f6f' --disable-__cxa_atexit --enable-cxx-flags='-fno-exceptions -fno-rtti' --with-gmp=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpfr=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpc=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-isl=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-cloog=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-libelf=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --disable-multilib --enable-languages=c,c++
+Thread model: single
+gcc version 4.8.5 (crosstool-NG crosstool-ng-1.22.0-60-g37b07f6f) 
+COMPILER_PATH=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/
+LIBRARY_PATH=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-nostdlib' '-v' '-o' 'cmTC_efa63'
+ /home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/collect2 --sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot -o cmTC_efa63 -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5 -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib CMakeFiles/cmTC_efa63.dir/CMakeCXXCompilerABI.cpp.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-lx106-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_efa63/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_efa63.dir/build.make CMakeFiles/cmTC_efa63.dir/build]
+  ignore line: [make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"]
+  ignore line: [Building CXX object CMakeFiles/cmTC_efa63.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib     -o CMakeFiles/cmTC_efa63.dir/CMakeCXXCompilerABI.cpp.obj -c /opt/clion-183.3795.17/bin/cmake/linux/share/cmake-3.12/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_efa63]
+  ignore line: [/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efa63.dir/link.txt --verbose=1]
+  ignore line: [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib       -v CMakeFiles/cmTC_efa63.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_efa63 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/lto-wrapper]
+  ignore line: [Target: xtensa-lx106-elf]
+  ignore line: [Configured with: /home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/src/gcc-4.8.5/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=xtensa-lx106-elf --prefix=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf --with-local-prefix=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --with-sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-60-g37b07f6f' --disable-__cxa_atexit --enable-cxx-flags='-fno-exceptions -fno-rtti' --with-gmp=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpfr=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-mpc=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-isl=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-cloog=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --with-libelf=/home/paolo/esp2866/esp-open-sdk/crosstool-NG/.build/xtensa-lx106-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-libgomp --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-nls --disable-multilib --enable-languages=c,c++]
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.8.5 (crosstool-NG crosstool-ng-1.22.0-60-g37b07f6f) ]
+  ignore line: [COMPILER_PATH=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/]
+  ignore line: [LIBRARY_PATH=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib/:/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-nostdlib' '-v' '-o' 'cmTC_efa63']
+  link line: [ /home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/collect2 --sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot -o cmTC_efa63 -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5 -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib -L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib CMakeFiles/cmTC_efa63.dir/CMakeCXXCompilerABI.cpp.obj]
+    arg [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/libexec/gcc/xtensa-lx106-elf/4.8.5/collect2] ==> ignore
+    arg [--sysroot=/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_efa63] ==> ignore
+    arg [-L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5] ==> dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5]
+    arg [-L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib] ==> dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib]
+    arg [-L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib] ==> dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib]
+    arg [-L/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib] ==> dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_efa63.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+  collapse library dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5] ==> [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5]
+  collapse library dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/lib] ==> [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/lib]
+  collapse library dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib] ==> [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib]
+  collapse library dir [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib] ==> [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib]
+  implicit libs: []
+  implicit dirs: [/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5;/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/lib;/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/lib;/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/xtensa-lx106-elf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12a9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12a9c.dir/build.make CMakeFiles/cmTC_12a9c.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_12a9c.dir/feature_tests.cxx.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib    -std=c++1y -o CMakeFiles/cmTC_12a9c.dir/feature_tests.cxx.obj -c /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_12a9c
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12a9c.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib        CMakeFiles/cmTC_12a9c.dir/feature_tests.cxx.obj  -o cmTC_12a9c 
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8445/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8445.dir/build.make CMakeFiles/cmTC_f8445.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_f8445.dir/feature_tests.cxx.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib    -std=c++11 -o CMakeFiles/cmTC_f8445.dir/feature_tests.cxx.obj -c /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f8445
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8445.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib        CMakeFiles/cmTC_f8445.dir/feature_tests.cxx.obj  -o cmTC_f8445 
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4b74/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4b74.dir/build.make CMakeFiles/cmTC_d4b74.dir/build
+make[1]: ingresso nella directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+Building CXX object CMakeFiles/cmTC_d4b74.dir/feature_tests.cxx.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib    -std=c++98 -o CMakeFiles/cmTC_d4b74.dir/feature_tests.cxx.obj -c /home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d4b74
+/opt/clion-183.3795.17/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4b74.dir/link.txt --verbose=1
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++ -nostdlib        CMakeFiles/cmTC_d4b74.dir/feature_tests.cxx.obj  -o cmTC_d4b74 
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.5/../../../../xtensa-lx106-elf/bin/ld: warning: cannot find entry symbol _start; defaulting to 0000000000400074
+make[1]: uscita dalla directory "/home/paolo/workspace/CNC/firmware/ESP8266/cmake-build-release/CMakeFiles/CMakeTmp"
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

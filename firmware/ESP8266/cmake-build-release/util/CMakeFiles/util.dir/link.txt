@@ -1,0 +1,2 @@
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-ar qc libutil.a  CMakeFiles/util.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/util/src/crc.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-ranlib libutil.a

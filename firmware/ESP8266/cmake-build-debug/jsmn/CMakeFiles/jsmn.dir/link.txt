@@ -1,0 +1,2 @@
+/usr/bin/ar qc libjsmn.a  CMakeFiles/jsmn.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/jsmn/src/jsmn.c.o
+/usr/bin/ranlib libjsmn.a

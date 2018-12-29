@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/jsmn/include/jsmn.h
+stddef.h
+-
+
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/jsmn/src/jsmn.c
+jsmn.h
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/jsmn/src/jsmn.h
+

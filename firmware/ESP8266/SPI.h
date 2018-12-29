@@ -29,7 +29,7 @@ public:
         moveCode(MOVE_Z, z);
     }
 private:
-    void moveCode(Code code, int16_t delta);
+    void moveCode(Code code, int32_t delta);
     SpiAttr spiAttr;
 };
 

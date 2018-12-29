@@ -22,7 +22,8 @@ SPI::SPI() {
     PIN_FUNC_SELECT(PERIPHS_IO_MUX_MTMS_U, 2); //GPIO14 is HSPI CLK pin (Clock)
 }
 
-void SPI::moveCode(Code code, int16_t delta) {
+void SPI::moveCode(Code code, int32_t delta) {
+
     SpiData spiData;
     spiData.cmdLen=8;
     spiData.cmd=static_cast<uint8_t>(code);

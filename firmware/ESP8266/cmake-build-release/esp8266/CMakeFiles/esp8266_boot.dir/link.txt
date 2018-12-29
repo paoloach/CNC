@@ -1,0 +1,2 @@
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-ar qc libesp8266_boot.a  CMakeFiles/esp8266_boot.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/source/ets_printf.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-ranlib libesp8266_boot.a

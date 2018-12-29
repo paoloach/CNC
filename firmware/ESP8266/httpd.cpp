@@ -32,7 +32,7 @@ static void getWhoAreYou(int fd, HTTP &http);
 static void moveX(int fd, HTTP &http);
 static void moveY(int fd, HTTP &http);
 static void moveZ(int fd, HTTP &http);
-static uint16_t move(int fd, HTTP &http);
+static int16_t move(int fd, HTTP &http);
 
 static bool readRequest(int fd, HTTP &http);
 
@@ -197,15 +197,16 @@ void moveY(int fd, HTTP &http) {
 void moveZ(int fd, HTTP &http) {
     ESP_LOGI(TAG, "moveZ");
     auto displacement = move(fd, http);
+    ESP_LOGI(TAG,"displacement: %d", displacement);
     if (displacement != 0){
         spi.moveZ(displacement);
     }
 }
 
 
-static uint16_t move(int fd, HTTP &http) {
+static int16_t move(int fd, HTTP &http) {
     bool error;
-    auto displacement = http.getIntAsBody(&error);
+    int16_t displacement = http.getIntAsBody(&error);
 
     if (error) {
         HttpResponse::sendBadRequest(fd);

@@ -12,6 +12,7 @@ set(AR /opt/cross/ARM-EMBEDDED/gcc-arm-none-eabi/bin/arm-none-eabi-ar)
 set(OBJCOPY /opt/cross/ARM-EMBEDDED/gcc-arm-none-eabi/bin/arm-none-eabi-objcopy)
 set(OBJDUMP /opt/cross/ARM-EMBEDDED/gcc-arm-none-eabi/bin/arm-none-eabi-objdump)
 set(SIZE /opt/cross/ARM-EMBEDDED/gcc-arm-none-eabi/bin/arm-none-eabi-size)
+set(GDB /opt/cross/ARM-EMBEDDED/gcc-arm-none-eabi/bin/arm-none-eabi-gdb)
 
 
 SET(LINKER_SCRIPT $${CMAKE_SOURCE_DIR}/${linkerScript})
@@ -53,7 +54,7 @@ add_custom_command(TARGET $${PROJECT_NAME}.elf POST_BUILD
 Building $${BIN_FILE}")
 
 add_custom_target(UPLOAD
-        arm-none-eabi-gdb -iex "target remote tcp:127.0.0.1:3333"
+        ${GDB} -iex "target remote tcp:127.0.0.1:3333"
         -iex "monitor program $<TARGET_FILE:$${PROJECT_NAME}.elf>"
         -iex "monitor reset init"
         -iex "disconnect" -iex "quit")

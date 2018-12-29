@@ -11,6 +11,8 @@ static uint32_t posZ;
 static uint32_t posY;
 static uint32_t posX;
 
+static const int delay = 20;
+
 void zero() {
     posX = 0;
     posY = 0;
@@ -31,10 +33,10 @@ void moveY(int16_t displacement){
 void moveZ(int16_t displacement){
     GPIO_PinState dirState = GPIO_PIN_SET;
     if (displacement < 0){
-        if (displacement < posZ)
+        if (-displacement < posZ)
             displacement = -displacement;
         else
-            displacement = -posZ;
+            displacement = posZ;
         dirState = GPIO_PIN_RESET;
     }
     HAL_GPIO_WritePin(Z_DIR_GPIO_Port,Z_DIR_Pin,dirState);
@@ -46,45 +48,45 @@ void moveZ(int16_t displacement){
     // make microsteps until it is a full step
     HAL_GPIO_WritePin(Z_MS1_GPIO_Port,Z_MS1_Pin,GPIO_PIN_SET);
     HAL_GPIO_WritePin(Z_MS2_GPIO_Port,Z_MS2_Pin,GPIO_PIN_SET);
-    HAL_Delay(1);
+    HAL_Delay(delay);
     for(uint32_t i=0; i < missingMicrosteps; i++){
         HAL_GPIO_WritePin(Z_STEP_GPIO_Port,Z_STEP_Pin,GPIO_PIN_SET);
-        HAL_Delay(10);
+        HAL_Delay(delay);
         if (dirState == GPIO_PIN_RESET)
             posZ--;
         else
             posZ ++;
         HAL_GPIO_WritePin(Z_STEP_GPIO_Port,Z_STEP_Pin,GPIO_PIN_RESET);
-        HAL_Delay(10);
+        HAL_Delay(delay);
     }
     // make full step
     HAL_GPIO_WritePin(Z_MS1_GPIO_Port,Z_MS1_Pin,GPIO_PIN_RESET);
     HAL_GPIO_WritePin(Z_MS2_GPIO_Port,Z_MS2_Pin,GPIO_PIN_RESET);
-    HAL_Delay(1);
+    HAL_Delay(delay);
     for(uint32_t i=0; i < fullSteps; i++){
         HAL_GPIO_WritePin(Z_STEP_GPIO_Port,Z_STEP_Pin,GPIO_PIN_SET);
-        HAL_Delay(10);
+        HAL_Delay(delay);
         if (dirState == GPIO_PIN_RESET)
-            posZ--;
+            posZ-=8;
         else
-            posZ ++;
+            posZ +=8;
         HAL_GPIO_WritePin(Z_STEP_GPIO_Port,Z_STEP_Pin,GPIO_PIN_RESET);
-        HAL_Delay(10);
+        HAL_Delay(delay);
     }
     if (remainsMicrosteps > 0){
         // make the remains microsteps
         HAL_GPIO_WritePin(Z_MS1_GPIO_Port,Z_MS1_Pin,GPIO_PIN_SET);
         HAL_GPIO_WritePin(Z_MS2_GPIO_Port,Z_MS2_Pin,GPIO_PIN_SET);
-        HAL_Delay(1);
+        HAL_Delay(delay);
         for(uint32_t i=0; i < remainsMicrosteps; i++){
             HAL_GPIO_WritePin(Z_STEP_GPIO_Port,Z_STEP_Pin,GPIO_PIN_SET);
-            HAL_Delay(10);
+            HAL_Delay(delay);
             if (dirState == GPIO_PIN_RESET)
                 posZ--;
             else
                 posZ ++;
             HAL_GPIO_WritePin(Z_STEP_GPIO_Port,Z_STEP_Pin,GPIO_PIN_RESET);
-            HAL_Delay(10);
+            HAL_Delay(delay);
         }
     }
 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libesp8266_boot.a  CMakeFiles/esp8266_boot.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/source/ets_printf.c.o
+/usr/bin/ranlib libesp8266_boot.a

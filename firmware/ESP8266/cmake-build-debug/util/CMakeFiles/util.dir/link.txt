@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutil.a  CMakeFiles/util.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/util/src/crc.c.o
+/usr/bin/ranlib libutil.a

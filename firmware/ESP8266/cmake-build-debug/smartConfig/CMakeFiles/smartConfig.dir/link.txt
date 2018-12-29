@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsmartConfig.a  CMakeFiles/smartConfig.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/smartconfig_ack/smartconfig_ack.c.o
+/usr/bin/ranlib libsmartConfig.a

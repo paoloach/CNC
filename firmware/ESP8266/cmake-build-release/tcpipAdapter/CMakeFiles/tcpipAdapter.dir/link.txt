@@ -1,0 +1,2 @@
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-ar qc libtcpipAdapter.a  CMakeFiles/tcpipAdapter.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/tcpip_adapter/tcpip_adapter_lwip.c.obj
+/home/paolo/esp2866/esp-open-sdk/xtensa-lx106-elf/bin/xtensa-lx106-elf-ranlib libtcpipAdapter.a

@@ -50,7 +50,7 @@ public:
         return bodyLen;
     }
 
-    uint16_t getIntAsBody(bool * error) ;
+    int16_t getIntAsBody(bool * error) ;
 
     void parseHeader();
 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h
+stdint.h
+-
+
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/rom_functions.h
+stdint.h
+-
+stdarg.h
+-
+
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/uart_register.h
+eagle_soc.h
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h
+
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h
+
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/source/ets_printf.c
+stdint.h
+-
+esp_attr.h
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/source/esp_attr.h
+esp8266/eagle_soc.h
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/source/esp8266/eagle_soc.h
+esp8266/uart_register.h
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/source/esp8266/uart_register.h
+esp8266/rom_functions.h
+/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/esp8266/source/esp8266/rom_functions.h
+

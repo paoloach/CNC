@@ -195,11 +195,11 @@ const char *HTTP::parseMethod(const char *data) {
     return data;
 }
 
-uint16_t HTTP::getIntAsBody(bool *error) {
+int16_t HTTP::getIntAsBody(bool *error) {
     const char *iter = body;
     const char *end = body + bodyLen;
     for (; iter < end; iter++) {
-        if (!isdigit(*iter)) {
+        if (!isdigit(*iter) && *iter != '-' && *iter != '+') {
             ESP_LOGI("HTTPD", "ERROR: body is not a number");
             if (error != nullptr)
                 *error = true;

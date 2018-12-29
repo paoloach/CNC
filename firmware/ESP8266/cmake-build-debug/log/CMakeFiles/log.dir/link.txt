@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblog.a  CMakeFiles/log.dir/home/paolo/esp2866/espressif/ESP8266_RTOS_SDK/components/log/log.c.o
+/usr/bin/ranlib liblog.a
